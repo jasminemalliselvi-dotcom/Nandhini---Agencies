@@ -1,0 +1,165 @@
+<title>NANDHINI AGENCIES - 2026 PRICE LIST</title>
+
+<link rel="stylesheet" href="style.css">
+�
+
+�
+
+<!-- HEADER -->
+<header class="top-header">
+    <div class="brand">
+        <h1>NANDHINI AGENCIES</h1>
+        <p>2026 PRICE LIST</p>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<!-- HOME -->
+<section id="home" class="home-section">
+    <div class="home-content">
+        <h2>2026 PRICE LIST</h2>
+        <p>View our products and prices</p>
+
+        <a href="#products" class="main-btn">
+            View Products
+        </a>
+    </div>
+</section>
+
+
+<!-- PRODUCTS -->
+<section id="products" class="products-section">
+
+    <div class="section-title">
+        <h2>PRODUCTS</h2>
+        <p>Search and select quantity</p>
+    </div>
+
+
+    <!-- SEARCH -->
+    <div class="search-area">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search product..."
+            autocomplete="off"
+        >
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+        </select>
+
+    </div>
+
+
+    <!-- PRODUCT TABLE -->
+    <div class="table-wrapper">
+
+        <table class="product-table">
+
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Product Name</th>
+                    <th>Type</th>
+                    <th>MRP</th>
+                    <th>Selling Price</th>
+                    <th>Quantity</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+
+            <tbody id="productTableBody">
+                <!-- Javascript products will appear here -->
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="info-section">
+
+    <div class="section-title">
+        <h2>ABOUT US</h2>
+    </div>
+
+    <div class="info-box">
+        <h3>NANDHINI AGENCIES</h3>
+
+        <p>
+            Welcome to Nandhini Agencies.
+            This website displays our 2026 product price list.
+        </p>
+
+        <p>
+            Browse products category-wise and check the
+            selling price and quantity-wise total amount.
+        </p>
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="info-section">
+
+    <div class="section-title">
+        <h2>CONTACT</h2>
+    </div>
+
+    <div class="contact-box">
+
+        <div class="contact-item">
+            <span class="contact-label">Contact Person</span>
+            <strong>Gandhi</strong>
+        </div>
+
+        <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <strong>900312310</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BOTTOM SUMMARY -->
+<div class="summary-bar">
+
+    <div class="summary-item">
+        <span>Subtotal</span>
+        <strong id="subtotal">₹0.00</strong>
+    </div>
+
+    <div class="summary-item">
+        <span>Discount</span>
+        <strong id="discount">₹0.00</strong>
+    </div>
+
+    <div class="summary-item">
+        <span>Quantity</span>
+        <strong id="totalQuantity">0</strong>
+    </div>
+
+    <div class="summary-item total-box">
+        <span>Total Amount</span>
+        <strong id="grandTotal">₹0.00</strong>
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
